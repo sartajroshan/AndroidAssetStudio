@@ -155,7 +155,7 @@ export class LauncherIconGenerator extends BaseGenerator {
         ctx = studio.Drawing.context(iconSize);
         studio.Drawing.drawImageScaled(
             ctx, xxxhdpiCtx,
-            0, 0, 192, 192,
+            0, 0, 512, 512,
             0, 0, iconSize.w, iconSize.h);
       }
 
